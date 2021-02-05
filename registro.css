@@ -1,0 +1,16 @@
+.tit{
+    font-weight:bold;
+    color:red;
+}
+.conte{
+    font-style:italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:blue;
+}
+.pie{
+    text-align:center;
+    font-family:'Anton', sans-serif;
+}
+.fondo3{
+    background-color:aqua;
+}

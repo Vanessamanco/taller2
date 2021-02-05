@@ -1,0 +1,21 @@
+.titulo{
+    font-family:'Anton', sans-serif;
+}
+.enl{
+    font-family:'Texturina', serif; 
+}
+.sub{
+    font-size:26px;
+    font-family:'Anton', sans-serif;
+}
+.parrafo{
+    font-size:22px;
+    font-family:'Texturina', serif;
+}
+.pie{
+    text-align:center;
+    font-family:'Anton', sans-serif;
+}
+.fondo{
+    background-color:aqua;
+}

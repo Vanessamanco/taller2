@@ -1,0 +1,27 @@
+.tit{
+    font-weight:bold;
+    color:red;
+}
+.fon{
+    background-image:url(img/lmdi2.jpg);
+}
+.subt{
+    font-weight:bold; 
+}
+.conte{
+    font-style:italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:blue;
+}
+.conte2{
+    font-style:italic;
+    font-family:fantasy;
+    color:red;
+}
+.pie1{
+    text-align:center;
+    font-family:'Anton', sans-serif;
+}
+.fondo3{
+    background-color:aqua;
+}
