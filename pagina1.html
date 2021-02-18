@@ -3,36 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TALLER 1</title>
-    <link rel="stylesheet" href="pagina1.css">
+    <title>TALLER 2</title>
+    <link rel="stylesheet" href="styles/pagina1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     
 </head>
 
 <body>
 
     <header>
-        <h1 class="titulo" class="fondo">La Murga del Indigente y La banda sinfónica de la Universidad de Antioquia</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">La Murga del Indigente y La banda sinfónica de la Universidad de Antioquia</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contenido 1</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Video Musical</a>
+                  </li>
+                  
+                 </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <main>
-        <img src="img/lmdi1.jpg" alt="">
+    <main class="mt-5">
+      <img src="img/pagina1.jpg" alt="Banner1" class="img-fluid w-100">
         
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-12 col-md-6">
 
-        <p class="sub">Contenido 1</p>
-        <p class="cont">Vídeo imperdible de ensamble sinfónico de la canción Mi Morenita de Pastor Lopez. Para nosotros es un honor poder compartir escenario al lado de musicos tan brillantes y profesionales como los de la banda sinfonica del Alma Mater de los antioqueños.</p>
+              <h3 class="titulo">La Banda De Antioqueñox RXN DIM</h3>
+              <p class="cont"> 
+              REPORTE OFICIAL. Todos absolutamente tranquilos. No fue un TEMBLOR, es la mejor del CONTINENTE La Murga Del indigente 2006 La que esta de REGRESO.Vamos MURGUEROS ustedes hacen GIGANTE a la HINCHADA del MEDELLÍN.¡VAMOS MEDALLO QUERIDO!
+              Queremos iniciar el festejo de nuestros 14 años de existencia mostrándoles el resultado del proceso formativo de Aguante Musical  en su versión número 12. Contamos con nuevos talentos que pronto harán vibrar el Atanasio con los ritmos y melodías propias de nuestra región. 
+              Gracias al INDER Alcaldía de Medellín y a la Rexixtenxia Norte 1998 por su apoyo incondicional para esta, la murga de la ciudad.
+              ¡ TOCAMOS LO QUE QUEREMOS & QUEREMOS LO QUE TOCAMOS!
+             </p>  
+            </div>
+              <div class="col-12 col-md-6">
+                <h3 class="titulo">LMDI Y LA BANDA SINFONICA UdeA</h3>
+                <p class="cont"> Vídeo imperdible de ensamble sinfónico de la canción Mi Morenita de Pastor Lopez. Para nosotros es un honor poder compartir escenario al lado de musicos tan brillantes y profesionales como los de la banda sinfonica del Alma Mater de los antioqueños.
+                 La Banda Sinfónica Universidad de Antioquia fundada en 1954, es el conjunto sinfónico más antiguo de la ciudad de Medellín Colombia y declarada como Patrimonio Cultural de la Ciudad.
+                 La Banda Sinfónica Universidad de Antioquia tiene una importante historia musical representada por grandes trabajos discográficos, entre los que se destacan: "La Música Colombiana", "De Colombia Para el Mundo" y "Retreta Colombiana". A estas producciones se suma su primer disco compacto "Música Colombiana"
+                </p>
 
-        <video src="video/lmdi.mp4" controls></video>
-        <hr>
+              </div>
+          </div>
+        </div>
+       
+
+        <video src="video/lmdi.mp4" controls class="img-fluid w-100"></video>
+        
     </main>
 
-    <footer class="fondo2">
+    <footer class="bg-dark text-white m-5">
 
-        <p class="pie">VANESSA MANCO CORREA</p>
-        <p class="pie">&#9993; vanesamanco@gmail.com </p>
-        <p class="pie">All rights reserved &copy;</p>
-        <p class="pie">Medellin, Colombia </p>
-        <p class="pie">2021</p>
+      <div class="container-fluid">
+        <div class="row p-5">
+          <div class="col-12 col-md-6 text-center">
 
+            <p>Vanessa Manco Correa</p>
+            <p>Medellin- Colombia</p>
+            <p>vanesamanco@gmail.com</p>
+            <p>300 548 6840</p>
+
+          </div>
+
+          <div class="col-12 col-md-6 text-center border-start border border-danger">
+            
+            <a href="https://web.whatsapp.com/" target="blank"><i class="fab fa-whatsapp-square fa-5x mt-5"></i></a>
+            <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook fa-5x mt-5"></i></a>
+            <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram fa-5x mt-5"></i></a>
+         </div>
+        </div>
+      </div>
+      
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8aedf6e2be.js" crossorigin="anonymous"></script>
 </body>
 </html>

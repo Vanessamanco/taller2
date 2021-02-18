@@ -1,18 +1,18 @@
 .titulo{
     font-weight:bold;
     color:red;
+    text-align:justify;
 }
 .fondo{
     background-image:url(img/lmdi1.jpg);
 }
-.sub{
-    font-weight:bold; 
-    color:red;
-}
+
 .cont{
     font-style: italic;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:blue;
+    text-align:justify;
+    
 }
 .pie{
     text-align:center;

@@ -1,6 +1,7 @@
 .tit{
     font-weight:bold;
     color:red;
+    text-align:justify;
 }
 .fon{
     background-image:url(img/lmdi2.jpg);
@@ -12,11 +13,13 @@
     font-style:italic;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:blue;
+    text-align:justify;
 }
 .conte2{
     font-style:italic;
     font-family:fantasy;
     color:red;
+    text-align:justify;
 }
 .pie1{
     text-align:center;
